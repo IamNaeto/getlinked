@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'clash';
+    src: url('/font/ClashDisplay.ttf');
+}
+
+*{
+    font-family: 'clash';
+}
+
+.btn{
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 35.5%, #FF26B9 100%, #FE34B9 100%);
+}
+
+/* hero globe rotation */
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.globe{
+    animation: rotate 10s linear infinite;
+}
