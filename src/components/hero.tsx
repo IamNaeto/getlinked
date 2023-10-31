@@ -27,11 +27,11 @@ const Hero = () => {
                 </div>
 
                 <div className="relative mt-10 lg:mt-0">
-                    <img src="./img/hero-img.png" alt="" className="relative z-5"/>
-                    <img src="./img/globe.png" alt="" className="globe absolute top-0 "/>
+                    <img src="./img/hero-img.png" alt="" className="relative z-10"/>
+                    <img src="./img/globe.png" alt="" className="globe absolute top-0 z-10"/>
                 </div>
 
-                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-400 lg:top-[-200px] right-100 lg:right-[-100px] z-0 w-50 opacity-70"/>
+                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-400 lg:top-[-200px] right-100 lg:right-[-100px] z-10 w-50 opacity-70"/>
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-300px] lg:top-[-400px] left-[-200px] z-0 w-50 opacity-70"/>
 
                 <img src="./img/whitestar.png" alt="" className="absolute top-10 left-20 z-0 w-50 animate-pulse"/>

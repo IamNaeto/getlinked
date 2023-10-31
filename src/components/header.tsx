@@ -38,7 +38,7 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
       };
     return ( 
-        <header className={`fixed w-full py-6 px-[5%] flex items-center justify-between z-1000 shadow-lg z-20 border-b border-1 border-gray-600 ${headerBackground}`}>
+        <header className={`fixed w-full py-6 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
             <a href="" >
                 <h2 className="text-4xl font-bold text-white">get<span className="text-purple">linked</span></h2>
             </a>
