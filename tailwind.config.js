@@ -11,7 +11,8 @@ export default {
       darkpurple: '#140D27',
       litepurple: '#FF26B9',
       purpleblue: '#903AFF',
-      pink: '##FE34B9',
+      purpleblur: '#2d273e',
+      pink: '#FE34B9',
       white: '#fff',
       },
       fontFamily: {

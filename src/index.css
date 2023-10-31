@@ -16,7 +16,7 @@
 }
 
 .btn:hover {
-    background: linear-gradient(270deg, #903AFF 0%, #D434FE 35.5%, #FF26B9 100%, #FE34B9 100%);
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 20.5%, #FF26B9 100%, #FE34B9 100%);
 }
 
 /* hero globe rotation */
