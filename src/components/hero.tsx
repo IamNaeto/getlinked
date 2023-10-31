@@ -1,7 +1,7 @@
 import CountdownTimer from "./time";
 const Hero = () => {
     return ( 
-        <main className="relative w-full bg-darkpurple overflow-hidden pt-[130px] bg-matrix bg-cover bg-right bg-no-repeat">
+        <main className="relative w-full bg-darkpurple overflow-hidden pt-[130px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
             
             <div className="flex flex-col items-end justify-end">
                 <h4 className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
