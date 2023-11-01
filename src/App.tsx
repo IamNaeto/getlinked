@@ -4,6 +4,7 @@ import TwinklingStars from "./components/twinklingstars";
 import Overview from "./components/overview";
 import Rules from "./components/rules";
 import Criteria from "./components/criteria";
+import FAQs from "./components/faq";
 
 const App = () => {
   return ( 
@@ -14,6 +15,7 @@ const App = () => {
         <Overview />
         <Rules />
         <Criteria />
+        <FAQs />
     </main>
    );
 }
