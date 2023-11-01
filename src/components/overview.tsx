@@ -1,6 +1,6 @@
 const Overview = () => {
     return ( 
-        <main className="relative px-[5%] py-[120px] bg-darkpurple grid grid-cols-1 lg:grid-cols-2 place-items-center border-b border-1 border-gray-600" id="overview">
+        <main className="relative px-[5%] py-[150px] bg-darkpurple grid grid-cols-1 lg:grid-cols-2 place-items-center border-b border-1 border-gray-600" id="overview">
             <section className="mb-10 lg:mb-0">
                 <img src="./img/thebigidea.png" alt="" className="w-full dangling-picture "/>
             </section>

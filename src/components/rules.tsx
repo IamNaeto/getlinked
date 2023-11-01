@@ -19,8 +19,8 @@ that's what we're all about!</p>
         <img src="./img/whitestar.png" alt="" className="absolute top-40 left-[500px] animate-pulse"/>
         <img src="./img/greystar.png" alt="" className="absolute top-50 right-50 animate-pulse"/>
 
-        <img src="./img/hero-purple-lens.png" alt="" className="absolute top-400 lg:top-[20px] lg:right-[-300px] z-10 w-50 opacity-70"/>
-                <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-300px] lg:top-[10px] left-[-100px] z-0 w-50 opacity-70"/>
+        <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[500px] lg:top-[20px] lg:right-[-300px] right-[-200px] z-10 w-50 opacity-70"/>
+        <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[50px] lg:top-[10px] left-[-100px] z-0 w-50 opacity-70"/>
     </main>
      );
 }

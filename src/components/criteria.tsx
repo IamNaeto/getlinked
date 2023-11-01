@@ -33,8 +33,8 @@ specific technologies or APIs, and any other competition-specific requirements.<
             <img src="./img/litepurplestar.png" alt="" className="absolute top-40 left-20 animate-pulse"/>
             <img src="./img/purplestar.png" alt="" className="absolute top-50 right-20 animate-pulse"/>
 
-            <img src="./img/hero-purple-lens.png" alt="" className="absolute top-400 lg:bottom-[-500px] lg:right-[-200px] z-0 w-50 opacity-70"/>
-            <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-300px] lg:top-[300px] left-[-100px] z-0 w-50 opacity-70"/>
+            <img src="./img/hero-purple-lens.png" alt="" className="absolute bottom-[-300px] lg:bottom-[-500px] lg:right-[-200px] right-0 z-0 w-50 opacity-70"/>
+            <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[300px] lg:top-[300px] left-[-100px] z-0 w-50 opacity-70"/>
         </main>
      );
 }

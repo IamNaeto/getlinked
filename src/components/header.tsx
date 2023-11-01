@@ -54,12 +54,12 @@ const Header = () => {
                 <a href="" className="btn py-4 px-10 cursor-pointer">Register</a>
 
                 <RiCloseCircleLine 
-                className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer"
+                className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple transition-all"
                 onClick={toggleMenu}
                 />
             </div>
 
-            <RiMenu4Line className=" lg:hidden text-4xl font-bold text-white cursor-pointer"
+            <RiMenu4Line className=" lg:hidden text-4xl font-bold text-white cursor-pointer hover:text-purple transition-all"
             onClick={toggleMenu}
             />
         </header>
