@@ -25,8 +25,8 @@ const Header = () => {
     // Determine the background color based on the scroll position
     useEffect(() => {
       if (scrollY > 0) {
-        // Apply a dark purple background when scrolling
-        setHeaderBackground('bg-darkpurple');
+        // Apply a backdrop blur background when scrolling
+        setHeaderBackground(' backdrop-blur-xl');
       } else {
         // Remove the background color when at the top
         setHeaderBackground('');

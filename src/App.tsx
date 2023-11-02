@@ -6,6 +6,7 @@ import Rules from "./components/rules";
 import Criteria from "./components/criteria";
 import FAQs from "./components/faq";
 import Timeline from "./components/timeline";
+import Rewards from "./components/rewards";
 
 const App = () => {
   return ( 
@@ -18,6 +19,7 @@ const App = () => {
         <Criteria />
         <FAQs />
         <Timeline />
+        <Rewards />
     </main>
    );
 }

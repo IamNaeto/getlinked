@@ -80,3 +80,15 @@
   .dangling-picture {
     animation: dangle 2s ease-in-out infinite;
   }
+
+  .silver{
+    background: rgba(212, 52, 254, 0.12);
+  }
+
+  .gold{
+    background: rgba(144, 58, 255, 0.12);
+  }
+
+  .bronze{
+    background: rgba(212, 52, 254, 0.12);
+  }
