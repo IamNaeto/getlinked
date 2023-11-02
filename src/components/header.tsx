@@ -47,11 +47,11 @@ const Header = () => {
                 <nav className="text-xl font-medium flex flex-col items-center lg:flex-row gap-2  z-1000">
                     <a href="#timeline" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Timeline</a>
                     <a href="#overview" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Overview</a>
-                    <a href="" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">FAQs</a>
+                    <a href="#faqs" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">FAQs</a>
                     <a href="" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Contact</a>
                 </nav>
 
-                <a href="" className="btn py-4 px-10 cursor-pointer">Register</a>
+                <a href="" className="btn py-5 px-10 text-xl font-medium cursor-pointer">Register</a>
 
                 <RiCloseCircleLine 
                 className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple transition-all"

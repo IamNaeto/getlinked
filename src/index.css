@@ -20,6 +20,14 @@
     background: linear-gradient(270deg, #903AFF 0%, #D434FE 20.5%, #FF26B9 100%, #FE34B9 100%);
 }
 
+.bubblering{
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  border: 10px solid #140D27; 
+
+  ;
+}
 /* hero globe rotation */
 @keyframes rotate {
     from {

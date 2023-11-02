@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="z-10 flex flex-col items-center lg:items-start lg:text-left md:text-center">                       
                         <div className="flex flex-col">
                             <div className="flex items-end justify-end w-full pr-[3%] lg:pr-[5%]">
-                                <img src="./img/bulb.png" alt="" className="w-10 md:w-50"/>
+                                <img src="./img/bulb.png" alt="" className="w-10 md:w-50 dangling-picture"/>
                             </div>
                             <h1 className="text-white font-extrabold text-5xl md:text-6xl lg:text-5xl xl:text-7xl relative z-1">getlinked Tech</h1>
                         </div>
@@ -21,7 +21,7 @@ const Hero = () => {
                         </div>
                         <p className="text-xl md:text-2xl lg:text-left text-center text-white font-medium w-[95%] lg:w-[80%] mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     
-                        <a href="" className="btn py-5 px-10 text-white text-xl">Register</a>
+                        <a href="" className="btn py-5 px-10 text-white text-xl font-medium">Register</a>
 
                         <CountdownTimer />
                 </div>
