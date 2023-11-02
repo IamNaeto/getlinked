@@ -42,6 +42,12 @@ const Rewards = () => {
 
                 <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[500px] lg:top-[20px] lg:right-[-300px] right-[-200px] z-10 w-50 opacity-70"/>
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[50px] lg:top-[150px] left-[-100px] z-0 w-50 opacity-70"/>
+
+                <img src="./img/whitestar.png" alt="" className="absolute top-[300px] right-[500px] animate-pulse"/>
+                <img src="./img/greystar.png" alt="" className="absolute bottom-[350px] left-[150px] animate-pulse"/>
+
+                <img src="./img/litepurplestar.png" alt="" className="absolute top-[250px] left-[200px] animate-pulse"/>
+                <img src="./img/purplestar.png" alt="" className="absolute bottom-[200px] right-[100px] animate-pulse"/>
             </section>
         </main>
      );

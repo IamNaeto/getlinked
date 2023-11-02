@@ -92,3 +92,12 @@
   .bronze{
     background: rgba(212, 52, 254, 0.12);
   }
+
+  .zoomed:hover {
+    transform: scale(1.2); /* You can adjust the scale value for the desired zoom effect */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+  }
+
+  .slow-transition{
+    transition: 0.5s;
+  }

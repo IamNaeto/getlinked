@@ -45,16 +45,16 @@ const Header = () => {
 
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} absolute top-[10px] border-purple lg:border-none border right-4 lg:right-0 lg:top-0 bg-darkpurple lg:bg-transparent rounded-xl lg:rounded-none shadow-sm shadow-gray-600 lg:shadow-none lg:p-0 p-20 lg:relative lg:flex flex-col lg:flex-row items-center text-white gap-10 transition-transform transform`}>
                 <nav className="text-xl font-medium flex flex-col items-center lg:flex-row gap-2  z-1000">
-                    <a href="#timeline" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Timeline</a>
-                    <a href="#overview" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Overview</a>
-                    <a href="#faqs" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">FAQs</a>
-                    <a href="" className="p-4 hover:text-pink hover:bg-purpleblur transition-all">Contact</a>
+                    <a href="#timeline" className="p-4 hover:text-pink hover:bg-purpleblur slow-transition">Timeline</a>
+                    <a href="#overview" className="p-4 hover:text-pink hover:bg-purpleblur slow-transition">Overview</a>
+                    <a href="#faqs" className="p-4 hover:text-pink hover:bg-purpleblur slow-transition">FAQs</a>
+                    <a href="" className="p-4 hover:text-pink hover:bg-purpleblur slow-transition">Contact</a>
                 </nav>
 
                 <a href="" className="btn py-5 px-10 text-xl font-medium cursor-pointer">Register</a>
 
                 <RiCloseCircleLine 
-                className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple transition-all"
+                className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple slow-transition"
                 onClick={toggleMenu}
                 />
             </div>
