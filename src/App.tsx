@@ -9,6 +9,7 @@ import Timeline from "./components/timeline";
 import Rewards from "./components/rewards";
 import Partners from "./components/partners";
 import Terms from "./components/terms";
+import Footer from "./components/footer";
 
 const App = () => {
   return ( 
@@ -24,6 +25,7 @@ const App = () => {
         <Rewards />
         <Partners />
         <Terms />
+        <Footer />
     </main>
    );
 }

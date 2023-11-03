@@ -10,29 +10,29 @@ const Terms = () => {
 
                     <p className="text-[14px] text-white font-medium font-mon leading-loose text-center lg:text-left my-8 w-full">Last updated on September 12, 2023</p>
 
-                    <p className="text[16px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">Below are our privacy & policy, which outline a lot of goodies. </p>
-                    <p className="text-[16px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">it’s our aim to always take of our participant</p>
+                    <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">Below are our privacy & policy, which outline a lot of goodies. </p>
+                    <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">it’s our aim to always take of our participant</p>
                 </div>
 
                 <div className="relative z-10 p-5 md:p-10 lg:p-20 rounded-lg border-[2px] mt-16 border-purple card-bg">
-                    <p className="text-[14px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">At getlinked tech Hackathon 1.0, we value your privacy
+                    <p className="text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left    w-full">At getlinked tech Hackathon 1.0, we value your privacy
                         and are committed to protecting your personal information.
                         This Privacy Policy outlines how we collect, use, disclose,
                         and safeguard your data when you participate in our tech
                         hackathon event. By participating in our event, you consent
                         to the practices described in this policy.</p>
 
-                    <h3 className="text-lg md:text-xl text-purple font-bold font-mon leading-loose text-center lg:text-left    w-full mt-10">Licensing Policy</h3>
-                    <p className="text-[14px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">Here are terms of our Standard License:</p>
+                    <h3 className="text-xl text-purple font-bold font-mon leading-relaxed lg:leading-loose text-center lg:text-left    w-full mt-10">Licensing Policy</h3>
+                    <p className="text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left    w-full">Here are terms of our Standard License:</p>
 
-                    <div className="mt-10 grid gap-8">
-                        <div className="flex gap-2 md:gap-4">
-                            <IoCheckmarkSharp className="text-xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">The Standard License grants you a non-exclusive right to
+                    <div className="mt-10 grid gap-4 md:gap-8">
+                        <div className="flex gap-1 md:gap-4">
+                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left    w-full">The Standard License grants you a non-exclusive right to
                                 navigate and register for our event</p>
                         </div>
 
-                        <div className="flex gap-2 md:gap-4">
-                            <IoCheckmarkSharp className="text-xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full">You are licensed to use the item available at any free source
+                        <div className="flex gap-1 md:gap-4">
+                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">You are licensed to use the item available at any free source
                                 sites, for your project developement</p>
                         </div>
 
