@@ -19,9 +19,9 @@ export default {
         'clash': ['"Clash Display"', 'sans'],
         'mon': ['"Montserrat"', 'sans'],
       },
-      backgroundGradientColors: {
-      // 'bullet-gradient': 'linear-gradient(270deg, #903AFF 0%, #D434FE 100%)',
-    },
+      backgroundColor: {
+        'lite-grey': 'rgba(255, 255, 255, 0.03)',
+      },
     backgroundImage: {
       'matrix': "url('./img/matrix.png')",
     },

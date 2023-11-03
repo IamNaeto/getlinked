@@ -8,7 +8,7 @@ const Terms = () => {
                     <h1 className="w-full text-[28px] md:text-4xl text-white font-bold mb-3 text-center     lg:text-left">Privacy Policy and </h1>
                     <h1 className="w-full text-[28px] md:text-4xl text-purple font-bold mb-3 text-center    lg:text-left">Terms</h1>
 
-                    <p className="text-[14px] text-white font-medium font-mon leading-loose text-center lg:text-left my-8 w-full">Last updated on September 12, 2023</p>
+                    <p className="text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left my-8 w-full">Last updated on September 12, 2023</p>
 
                     <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">Below are our privacy & policy, which outline a lot of goodies. </p>
                     <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left    w-full">it’s our aim to always take of our participant</p>

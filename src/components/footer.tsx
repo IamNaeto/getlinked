@@ -1,5 +1,6 @@
 import { FaInstagram, FaXTwitter, FaFacebookF, FaLinkedinIn, FaLocationDot } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -7,9 +8,9 @@ const Footer = () => {
             <section className="w-full flex-col lg:flex-row flex justify-between gap-8">
             <div className="relative z-10 flex flex-col justify-between mb-6 lg:mb-0">
                 <div>
-                    <a href="" >
+                    <Link to="/" >
                         <h2 className="text-4xl font-bold text-white">get<span className="text-purple">linked</span></h2>
-                    </a>
+                    </Link>
                     <p className="text-lg text-white font-mon leading-loose text-left my-4 w-full lg:w-[650px]">Getlinked Tech Hackathon is a technology innovation program
                         established by a group of organizations with the aim of showcasing
                         young and talented individuals in the field of technology</p>
@@ -25,7 +26,7 @@ const Footer = () => {
                     <a href="#timeline" className="text-white text-lg hover:text-pink slow-transition">Timeline</a>
                     <a href="#overview" className="text-white text-lg hover:text-pink slow-transition">Overview</a>
                     <a href="#faqs" className="text-white text-lg hover:text-pink slow-transition">FAQs</a>
-                    <a href="" className="text-white text-lg hover:text-pink slow-transition">Contact</a>
+                    <Link to="/contact" className="text-white text-lg hover:text-pink slow-transition">Contact</Link>
                 </div>
 
                 <div className="relative z-10 flex items-center gap-4">
