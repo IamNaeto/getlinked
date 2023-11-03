@@ -21,7 +21,7 @@ const Hero = () => {
                         </div>
                         <p className="text-xl md:text-2xl lg:text-left text-center text-white font-medium w-[95%] lg:w-[80%] mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     
-                        <a href="" className="btn py-5 px-10 text-white text-xl font-medium">Register</a>
+                        <a href="" className="btn py-5 px-10 text-white text-xl font-medium rounded-md">Register</a>
 
                         <CountdownTimer />
                 </div>

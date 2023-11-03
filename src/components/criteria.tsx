@@ -26,7 +26,7 @@ to the rules and guidelines of the hackathon, including deadlines, use of
 specific technologies or APIs, and any other competition-specific requirements.</p>
 
                 <div className="flex items-center justify-center lg:items-start lg:justify-start">
-                    <a href="" className="relative btn py-5 px-10 text-white text-xl font-medium z-10">Read More</a>
+                    <a href="" className="relative btn py-5 px-10 text-white text-xl font-medium z-10 rounded-md">Read More</a>
                 </div>
             </section>
 

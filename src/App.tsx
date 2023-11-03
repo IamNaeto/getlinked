@@ -8,6 +8,7 @@ import FAQs from "./components/faq";
 import Timeline from "./components/timeline";
 import Rewards from "./components/rewards";
 import Partners from "./components/partners";
+import Terms from "./components/terms";
 
 const App = () => {
   return ( 
@@ -22,6 +23,7 @@ const App = () => {
         <Timeline />
         <Rewards />
         <Partners />
+        <Terms />
     </main>
    );
 }

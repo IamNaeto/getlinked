@@ -94,10 +94,14 @@
   }
 
   .zoomed:hover {
-    transform: scale(1.2); /* You can adjust the scale value for the desired zoom effect */
-    transition: transform 0.3s ease; /* Add a smooth transition */
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
   }
 
   .slow-transition{
     transition: 0.5s;
+  }
+
+  .card-bg{
+    background: rgba(217, 217, 217, 0.03);
   }

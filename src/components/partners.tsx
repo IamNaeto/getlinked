@@ -1,14 +1,14 @@
 const Partners = () => {
     return ( 
-        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 overflow-hidden" id="timeline">
+        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 items-center place-items-center overflow-hidden" id="timeline">
             <section className="w-full flex flex-col items-center justify-center mb-20">
                 <h1 className="text-[28px] md:text-4xl text-white font-bold mb-3 text-center">Partners and Sponsors</h1>
                 <p className="text-lg text-white font-medium font-mon leading-loose text-center w-full lg:w-[40%]">Getlinked Hackathon 1.0 is honored to have the following major 
 companies as its partners and sponsors</p>
             </section>
 
-            <section className="relative grid grid-cols-1 place-items-center">
-                <div className="grid grid-cols-3 items-center border border-purple rounded-md p-10">
+            <section className="relative grid grid-cols-1 place-items-center border border-purple rounded-md p-10 lg:p-20 w-full lg:w-[80%]">
+                <div className="grid grid-cols-3 items-center">
                     <div className="relative p-6 flex items-center justify-center border-r-[4px] border-b-[4px] border-b-purple border-r-purple">
                         <img src="./img/Liberty-Logo.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
 
@@ -33,7 +33,7 @@ companies as its partners and sponsors</p>
                 </div>
 
 
-                <img src="./img/hero-purple-lens.png" alt="" className="absolute bottom-[-300px] lg:bottom-[-500px] lg:right-[-100px] right-[-100px] z-0 w-50 opacity-70" />
+                <img src="./img/hero-purple-lens-left.png" alt="" className="absolute bottom-[-300px] lg:bottom-[-400px] lg:right-[-400px] right-[-300px] z-0 w-50 opacity-70" />
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-200px] lg:top-[-400px] left-[-100px] z-0 w-50 opacity-70" />
             </section>
 

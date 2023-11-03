@@ -51,7 +51,7 @@ const Header = () => {
                     <a href="" className="p-4 hover:text-pink hover:bg-purpleblur slow-transition">Contact</a>
                 </nav>
 
-                <a href="" className="btn py-5 px-10 text-xl font-medium cursor-pointer">Register</a>
+                <a href="" className="btn py-5 px-10 text-xl font-medium cursor-pointer rounded-md">Register</a>
 
                 <RiCloseCircleLine 
                 className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple slow-transition"
