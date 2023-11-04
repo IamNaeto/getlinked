@@ -20,7 +20,7 @@ const RegisterForm = () => {
                     </div>
 
                     <form action="/" className="relative z-10">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2 lg:gap-6">
                             <label htmlFor="" className="labels font-mon">Team Name 
                                 <input type="text" placeholder="Enter the name of your group" className="input font-mon" required />
                             </label>
@@ -29,7 +29,7 @@ const RegisterForm = () => {
                             </label>
                         </div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2 lg:gap-6">
                             <label htmlFor="" className="labels font-mon">Email
                                 <input type="email" placeholder="Enter your email address" className="input font-mon" required />
                             </label>
@@ -38,7 +38,7 @@ const RegisterForm = () => {
                             </label>
                         </div>
 
-                        <div className="grid grid-cols-2 items-center gap-6">
+                        <div className="grid grid-cols-2 items-center gap-2 lg:gap-6">
                             <label htmlFor="" className="labels font-mon">Category
                                 <select name="" id="" className="select" required>
                                     <option value="" className="bg-darkpurple">--Select--</option>
