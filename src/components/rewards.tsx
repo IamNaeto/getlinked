@@ -1,6 +1,6 @@
 const Rewards = () => {
     return ( 
-        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 overflow-hidden" id="timeline">
+        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 overflow-hidden" id="rewards">
             <section className="relative z-10 flex items-end justify-end">
                 <div className="w-full lg:w-[50%]">
                     <h1 className="w-full text-[28px] md:text-4xl text-white font-bold text-center mb-0 md:mb-3  lg:text-left">Prizes and</h1>
@@ -9,7 +9,7 @@ const Rewards = () => {
                 </div>
             </section>
 
-            <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-[50px] lg:mt-[150px]">
+            <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-[50px] lg:mt-[100px]">
                 <div className="flex items-center md:items-start justify-center md:justify-start">
                     <img src="./img/prize.png" alt="" className="dangling-picture relative z-10" />
                 </div>

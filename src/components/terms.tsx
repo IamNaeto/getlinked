@@ -15,29 +15,29 @@ const Terms = () => {
                 </div>
 
                 <div className="relative z-10 p-5 md:p-10 rounded-lg border-[2px] mt-5 md:mt-16 border-purple card-bg">
-                    <p className="text-[14px] sm:text-[16px] md:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">At getlinked tech Hackathon 1.0, we value your privacy
+                    <p className="text-[14px] sm:text-[15px] md:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">At getlinked tech Hackathon 1.0, we value your privacy
                         and are committed to protecting your personal information.
                         This Privacy Policy outlines how we collect, use, disclose,
                         and safeguard your data when you participate in our tech
                         hackathon event. By participating in our event, you consent
                         to the practices described in this policy.</p>
 
-                    <h3 className="text-[14px] sm:text-[16px] md:text-xl text-purple font-bold font-mon leading-relaxed lg:leading-loose text-center lg:text-left  w-full mt-10">Licensing Policy</h3>
-                    <p className="text-[14px] sm:text-[16px] md:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">Here are terms of our Standard License:</p>
+                    <h3 className="text-[14px] sm:text-[15px] md:text-xl text-purple font-bold font-mon leading-relaxed lg:leading-loose text-center lg:text-left  w-full mt-10">Licensing Policy</h3>
+                    <p className="text-[14px] sm:text-[15px] md:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">Here are terms of our Standard License:</p>
 
                     <div className="mt-5 md:mt-10 grid gap-4 md:gap-8">
                         <div className="flex gap-1 md:gap-4">
-                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-[16px] lg:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">The Standard License grants you a non-exclusive right to
+                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-[15px] lg:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">The Standard License grants you a non-exclusive right to
                                 navigate and register for our event</p>
                         </div>
 
                         <div className="flex gap-1 md:gap-4">
-                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-[16px] lg:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">You are licensed to use the item available at any free source
+                            <IoCheckmarkSharp className="text-2xl md:text-3xl text-white bg-green-600 rounded-full p-1" /> <p className="text-[14px] md:text-[15px] lg:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">You are licensed to use the item available at any free source
                                 sites, for your project developement</p>
                         </div>
 
                         <div className="flex items-center justify-center">
-                            <a href="" className="relative btn py-3 px-10 text-white text-xl font-medium z-10 rounded-sm">Read More</a>
+                            <a href="#rules" className="relative btn py-3 px-10 text-white text-[16px] font-medium z-10 rounded-sm">Read More</a>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const Criteria = () => {
                     specific technologies or APIs, and any other competition-specific requirements.</p>
 
                 <div className="flex items-center justify-center lg:items-start lg:justify-start">
-                    <a href="" className="relative btn py-3 px-10 text-white text-[16px] font-medium z-10 rounded-sm">Read More</a>
+                    <a href="#rewards" className="relative btn py-3 px-10 text-white text-[16px] font-medium z-10 rounded-sm">Read More</a>
                 </div>
             </section>
 
