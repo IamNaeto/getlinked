@@ -1,7 +1,7 @@
 import CountdownTimer from "./time";
 const Hero = () => {
     return (
-        <main className="relative grid items-center h-[100vh] w-full bg-darkpurple overflow-hidden pt-[90px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
+        <main className="relative grid items-center h-full lg:h-[100vh] w-full bg-darkpurple overflow-hidden pt-[90px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
 
             <div className="flex flex-col items-end justify-end">
                 <h4 className="text-[16px] md:text-2xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
@@ -27,7 +27,7 @@ const Hero = () => {
                 </div>
 
                 <div className="relative mt-5 lg:mt-0">
-                    <img src="./img/hero-img.png" alt="" className="relative z-10" />
+                    <img src="./img/hero-img.png" alt="" className="relative z-10 h-[90%]" />
                     <img src="./img/globe.png" alt="" className="globe absolute top-0 z-10" />
                 </div>
 
