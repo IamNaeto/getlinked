@@ -12,7 +12,7 @@ using for the upcoming event.</p>
                     <h1 className="text-2xl font-medium text-purple text-left lg:text-right">Hackathon Announcement</h1>
                     <p className="text-[16px] text-mon text-left lg:text-right text-white tracking-wider w-full lg:w-[70%]">The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register</p>
 
-                    <div className="hidden absolute bottom-[30px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">1</div>
+                    <div className="hidden absolute bottom-[40px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">1</div>
                 </div>
 
 
@@ -27,7 +27,7 @@ using for the upcoming event.</p>
                 <div className="relative flex items-center justify-start lg:justify-end p-0 lg:py-[20px] lg:px-[50px] w-full lg:w-[50%] h-full border-r-0 lg:border-r-4 border-purple">
                     <h1 className="text-2xl font-medium text-purple text-left lg:text-right">November 18, 2023</h1>
 
-                    <div className="hidden absolute bottom-[30px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">2</div>
+                    <div className="hidden absolute bottom-[40px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">2</div>
                 </div>
 
 
@@ -44,7 +44,7 @@ using for the upcoming event.</p>
                     <h1 className="text-2xl font-medium text-purple text-left lg:text-right">Teams Registration ends</h1>
                     <p className="text-[16px] text-mon text-left lg:text-right text-white tracking-wider w-full lg:w-[60%]">Interested Participants are no longer Allowed to register</p>
 
-                    <div className="hidden absolute bottom-[30px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">3</div>
+                    <div className="hidden absolute bottom-[40px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">3</div>
                 </div>
 
 
@@ -59,7 +59,7 @@ using for the upcoming event.</p>
                 <div className="relative flex items-center justify-start lg:justify-end p-0 lg:py-[20px] lg:px-[50px] w-full lg:w-[50%] h-full border-r-0 lg:border-r-4 border-purple">
                     <h1 className="text-2xl font-medium text-purple text-right">November 18, 2023</h1>
 
-                    <div className="hidden absolute bottom-[30px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">4</div>
+                    <div className="hidden absolute bottom-[40px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">4</div>
                 </div>
 
 
@@ -77,7 +77,7 @@ and ideas</h1>
                     <h1 className="text-2xl font-medium text-purple text-left lg:text-right">Getlinked Hackathon 1.0 Offically Begins</h1>
                     <p className="text-[16px] text-mon text-left lg:text-right text-white tracking-wider w-full lg:w-[60%]">Accepted teams can now proceed to build their ground breaking skill driven solutions</p>
 
-                    <div className="hidden absolute bottom-[30px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">5</div>
+                    <div className="hidden absolute bottom-[40px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">5</div>
                 </div>
 
 
@@ -91,7 +91,7 @@ and ideas</h1>
             <section className="relative z-10 flex lg:flex-row flex-col-reverse items-center justify-center border-r-0 lg:border-l-0 border-l-4 border-purple pl-10 lg:pl-0 gap-8 lg:gap-0 mb-20 lg:mb-0 ml-5 md:ml-10 lg:ml-0">
                 <div className="relative flex items-center justify-start lg:justify-end p-0 lg:py-[20px] lg:px-[50px] lg:pb-0 w-full lg:w-[50%] h-full border-r-0 lg:border-r-4 border-purple">
                     <h1 className="text-2xl font-medium text-purple text-left lg:text-right">November 18, 2023</h1>
-                    <div className="hidden absolute bottom-[10px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">6</div>
+                    <div className="hidden absolute bottom-[20px] right-[-33px] rounded-full bubblering text-3xl font-medium  text-white lg:flex items-center justify-center">6</div>
                 </div>
 
 
