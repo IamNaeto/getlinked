@@ -11,7 +11,7 @@ const Footer = () => {
                     <Link to="/" >
                         <h2 className="text-4xl font-bold text-white">get<span className="text-purple">linked</span></h2>
                     </Link>
-                    <p className="text-[14px] md:text-[16px] text-white font-mon leading-loose text-left my-4 w-full lg:w-[650px]">Getlinked Tech Hackathon is a technology innovation program
+                    <p className="text-[14px] md:text-[16px] text-white font-mon leading-loose text-left my-4 w-full lg:w-[450px]">Getlinked Tech Hackathon is a technology innovation program
                         established by a group of organizations with the aim of showcasing
                         young and talented individuals in the field of technology</p>
                 </div>

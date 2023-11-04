@@ -39,20 +39,20 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
       };
     return ( 
-        <header className={`fixed w-full py-5 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
+        <header className={`fixed w-full py-4 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
             <Link to="/"  >
                 <h2 className="text-4xl font-bold text-white">get<span className="text-purple">linked</span></h2>
             </Link>
 
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} absolute top-[10px] border-purple lg:border-none border right-4 lg:right-0 lg:top-0 bg-darkpurple lg:bg-transparent rounded-xl lg:rounded-none shadow-sm shadow-gray-600 lg:shadow-none lg:p-0 p-10 lg:relative lg:flex flex-col lg:flex-row items-start lg:items-center text-white gap-10 transition-transform transform`}>
                 <nav className="text-[16px] font-medium flex flex-col items-start lg:items-center lg:flex-row gap-2  z-1000">
-                    <a href="#timeline" className="p-3 rounded-md hover:text-pink hover:bg-purpleblur slow-transition">Timeline</a>
-                    <a href="#overview" className="p-3 rounded-md hover:text-pink hover:bg-purpleblur slow-transition">Overview</a>
-                    <a href="#faqs" className="p-3 rounded-md hover:text-pink hover:bg-purpleblur slow-transition">FAQs</a>
-                    <Link to="/contact" className="p-3 rounded-md hover:text-pink hover:bg-purpleblur slow-transition">Contact</Link>
+                    <a href="#timeline" className="p-3 rounded-sm hover:text-pink hover:bg-purpleblur slow-transition">Timeline</a>
+                    <a href="#overview" className="p-3 rounded-sm hover:text-pink hover:bg-purpleblur slow-transition">Overview</a>
+                    <a href="#faqs" className="p-3 rounded-sm hover:text-pink hover:bg-purpleblur slow-transition">FAQs</a>
+                    <Link to="/contact" className="p-3 rounded-sm hover:text-pink hover:bg-purpleblur slow-transition">Contact</Link>
                 </nav>
 
-                <a href="" className="btn py-3 px-10 text-[16px] font-medium cursor-pointer rounded-md">Register</a>
+                <a href="" className="btn py-3 px-10 text-[16px] font-medium cursor-pointer rounded-sm">Register</a>
 
                 <RiCloseCircleLine 
                 className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple slow-transition"

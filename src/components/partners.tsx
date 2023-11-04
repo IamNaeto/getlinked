@@ -7,23 +7,23 @@ const Partners = () => {
 companies as its partners and sponsors</p>
             </section>
 
-            <section className="relative grid grid-cols-1 place-items-center border border-purple rounded-md p-5 lg:p-20 w-full lg:w-[80%]">
+            <section className="relative grid grid-cols-1 place-items-center border border-purple rounded-md p-5 lg:p-10 w-full lg:w-[60%]">
                 <div className="grid grid-cols-3 items-center">
-                    <div className="relative p-6 flex items-center justify-center border-r-[4px] border-b-[4px] border-b-purple border-r-purple">
+                    <div className="relative p-6 flex items-center justify-center border-r-[3px] md:border-r-[4px] border-b-[3px] md:border-b-[4px] border-b-purple border-r-purple">
                         <img src="./img/Liberty-Logo.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
 
                         <div className="absolute right-[-25px] bottom-[-20px] w-[40px] h-[40px] bg-darkpurple"></div>
                     </div>
-                    <div className="p-6 flex items-center justify-center border-r-[4px] border-b-[4px] border-b-purple border-r-purple h-full">
+                    <div className="p-6 flex items-center justify-center border-r-[3px] md:border-r-[4px] border-b-[3px] md:border-b-[4px] border-b-purple border-r-purple h-full">
                         <img src="./img/Liberty-Pay.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
                     </div>
-                    <div className="p-6 flex items-center justify-center border-b-[4px] border-b-purple h-full">
+                    <div className="p-6 flex items-center justify-center border-b-[3px] md:border-b-[4px] border-b-purple h-full">
                         <img src="./img/WinWise.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
                     </div>
-                    <div className="p-6 flex items-center justify-center border-r-[4px] border-r-purple h-full">
+                    <div className="p-6 flex items-center justify-center border-r-[3px] md:border-r-[4px] border-r-purple h-full">
                         <img src="./img/Whispersms.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
                     </div>
-                    <div className="relative p-6 flex items-center justify-center border-r-[4px] border-r-purple h-full">
+                    <div className="relative p-6 flex items-center justify-center border-r-[3px] md:border-r-[4px] border-r-purple h-full">
                         <img src="./img/Paybox.png" alt="" className="relative z-10 transition-transform delay-300 slow-transition transform-gpu hover:scale-110"/>
                         <div className="absolute right-[-25px] top-[-20px] w-[40px] h-[40px] bg-darkpurple"></div>
                     </div>

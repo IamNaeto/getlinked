@@ -1,10 +1,10 @@
 import CountdownTimer from "./time";
 const Hero = () => {
     return ( 
-        <main className="relative w-full bg-darkpurple overflow-hidden pt-[130px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
+        <main className="relative w-full bg-darkpurple overflow-hidden pt-[90px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
             
             <div className="flex flex-col items-end justify-end">
-                <h4 className="text-[16px] md:text-2xl lg:text-3xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
+                <h4 className="text-[16px] md:text-2xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
                 <img src="./img/stroke.png" alt=""  className="pr-[5%] w-[100px] md:w-[250px]"/>
             </div>
             <section className="grid grid-cols-1 lg:grid-cols-2 items-center ml-0 md:ml-[5%] relative">
@@ -19,9 +19,9 @@ const Hero = () => {
                             <h1 className="text-white font-extrabold text-4xl md:text-6xl lg:text-5xl xl:text-6xl relative z-1">Hackathon <span className="text-purple">1.0</span></h1>
                             <img src="./img/chainexplosion.png" alt="" className="w-20 md:w-50"/>
                         </div>
-                        <p className="text-[16px] md:text-[20px] lg:text-left text-center text-white font-medium w-[95%] lg:w-[65%] mb-5 md:mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+                        <p className="text-[16px] md:text-[20px] lg:text-left text-center text-white font-medium w-[95%] lg:w-[65%] mb-2 md:mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     
-                        <a href="" className="btn py-3 px-10 text-white text-xl font-medium rounded-md">Register</a>
+                        <a href="" className="btn py-3 px-10 text-white text-[16px] font-medium rounded-sm">Register</a>
 
                         <CountdownTimer />
                 </div>

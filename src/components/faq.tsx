@@ -20,7 +20,7 @@ const FAQs = () => {
             <section className="relative z-10">
                 <h1 className="text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center lg:text-left">Frequently Ask</h1>
                 <h1 className="text-[28px] md:text-4xl text-purple font-bold mb-0 md:mb-3 text-center lg:text-left">Question</h1>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full lg:w-[60%]">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
+                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full lg:w-[70%]">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
 
                 <div className="relative z-10 w-full mt-10">
                     {faqData.map((item, index) => (

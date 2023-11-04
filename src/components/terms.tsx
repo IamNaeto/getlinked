@@ -2,7 +2,7 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 
 const Terms = () => {
     return (
-        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 lg:grid-cols-2 gap-8 justify-between overflow-hidden" id="terms">
+        <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 lg:grid-cols-2 items-center gap-8 justify-between overflow-hidden" id="terms">
             <section>
                 <div className="w-full">
                     <h1 className="w-full text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center     lg:text-left">Privacy Policy and </h1>
@@ -14,7 +14,7 @@ const Terms = () => {
                     <p className="text-[14px] md:text-[16px] md:text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full">it’s our aim to always take of our participant</p>
                 </div>
 
-                <div className="relative z-10 p-5 md:p-10 lg:p-20 rounded-lg border-[2px] mt-5 md:mt-16 border-purple card-bg">
+                <div className="relative z-10 p-5 md:p-10 rounded-lg border-[2px] mt-5 md:mt-16 border-purple card-bg">
                     <p className="text-[14px] sm:text-[16px] md:text-lg text-white font-medium font-mon leading-relaxed lg:leading-loose text-center lg:text-left w-full">At getlinked tech Hackathon 1.0, we value your privacy
                         and are committed to protecting your personal information.
                         This Privacy Policy outlines how we collect, use, disclose,

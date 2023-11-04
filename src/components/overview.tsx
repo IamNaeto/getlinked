@@ -5,7 +5,7 @@ const Overview = () => {
                 <img src="./img/thebigidea.png" alt="" className="w-full dangling-picture " />
             </section>
 
-            <section>
+            <section className="relative z-10">
                 <h1 className="text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center lg:text-left">Introduction to getlinked</h1>
                 <h1 className="text-[28px] md:text-4xl text-purple font-bold mb-3 text-center lg:text-left">tech Hackathon 1.0</h1>
                 <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left">Our tech hackathon is a melting pot of visionaries, and its purpose is as

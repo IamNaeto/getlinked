@@ -9,13 +9,13 @@ const Rewards = () => {
                 </div>
             </section>
 
-            <section className="grid grid-cols-1 lg:grid-cols-2 items-center mt-[50px] lg:mt-[150px]">
+            <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-[50px] lg:mt-[150px]">
                 <div className="flex items-center md:items-start justify-center md:justify-start">
                     <img src="./img/prize.png" alt="" className="dangling-picture relative z-10" />
                 </div>
 
                 <div className="grid grid-cols-3 gap-2 md:gap-4 mt-[150px] md:mt-[200px] lg:mt-0">
-                    <div className="relative z-10 max-h-[180px] sm:max-h-[200px] md:max-h-[300px] flex flex-col items-center justify-end px-5 py-5 md:py-10 silver rounded-xl border-2 border-purple">
+                    <div className="relative z-10 max-h-[180px] sm:max-h-[200px] md:max-h-[250px] flex flex-col items-center justify-end px-5 py-5 md:py-10 silver rounded-xl border-2 border-purple">
                         <img src="./img/silver_medal.png" alt="" className="absolute top-[-70px] md:top-[-100px]"/>
 
                         <h1 className="text-lg sm:text-xl md:text-4xl text-white font-bold font-mon text-center">2nd</h1>
@@ -23,7 +23,7 @@ const Rewards = () => {
                         <h1 className="text-lg sm:text-xl md:text-3xl text-purple font-bold font-mon text-center">N300,000</h1>
                     </div>
 
-                    <div className="relative z-10 min-h-[200px] sm:min-h-[220px] md:min-h-[350px] flex flex-col items-center justify-end px-5 py-5 md:py-10 gold rounded-xl border-2 border-purpleblue">
+                    <div className="relative z-10 min-h-[200px] sm:min-h-[220px] md:min-h-[280px] flex flex-col items-center justify-end px-5 py-5 md:py-10 gold rounded-xl border-2 border-purpleblue">
                         <img src="./img/gold_medal.png" alt="" className="absolute top-[-70px] md:top-[-150px]"/>
 
                         <h1 className="text-lg sm:text-xl md:text-4xl text-white font-bold font-mon text-center">1st</h1>
@@ -31,7 +31,7 @@ const Rewards = () => {
                         <h1 className="text-lg sm:text-xl md:text-3xl text-purpleblue font-bold font-mon text-center">N400,000</h1>
                     </div>
 
-                    <div className="relative z-10 max-h-[180px] sm:max-h-[200px] md:max-h-[300px] flex flex-col items-center justify-end px-5 py-5 md:py-10 bronze rounded-xl border-2 border-purple">
+                    <div className="relative z-10 max-h-[180px] sm:max-h-[200px] md:max-h-[250px] flex flex-col items-center justify-end px-5 py-5 md:py-10 bronze rounded-xl border-2 border-purple">
                         <img src="./img/bronze_medal.png" alt="" className="absolute top-[-70px] md:top-[-100px]"/>
 
                         <h1 className="text-lg sm:text-xl md:text-4xl text-white font-bold font-mon text-center">3rd</h1>
