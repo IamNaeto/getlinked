@@ -37,7 +37,7 @@ const Terms = () => {
                         </div>
 
                         <div className="flex items-center justify-center">
-                            <a href="" className="relative btn py-3 px-10 text-white text-xl font-medium z-10 rounded-md">Read More</a>
+                            <a href="" className="relative btn py-3 px-10 text-white text-xl font-medium z-10 rounded-sm">Read More</a>
                         </div>
                     </div>
                 </div>

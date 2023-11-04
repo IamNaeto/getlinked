@@ -2,18 +2,18 @@ import { FaInstagram, FaXTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/
 
 const ContactUs = () => {
     return ( 
-        <main className="relative w-full bg-darkpurple overflow-hidden pt-[130px] pb-[100px] lg:h-[100vh] h-[100%] px-[5%]" id="contact">
+        <main className="relative grid items-center justify-center w-full bg-darkpurple overflow-hidden lg:pt-[50px] pt-[130px] pb-[100px] lg:pb-0 lg:h-[100vh] h-[100%] px-[5%]" id="contact">
             <section className="flex items-center justify-center place-items-center gap-10 w-full py-auto">
                 <div className="relative z-10 lg:grid gap-4 hidden">
-                    <h1 className="text-4xl text-purple font-medium">Get in touch</h1>
-                    <p className="text-xl text-white w-[10%] font-mon">Contact Information</p>
-                    <p className="text-xl text-white w-[60%] xl:w-[40%] font-mon">27,Alara Street Yaba 100012 Lagos State</p>
-                    <p className="text-xl text-white w-[70%] xl:w-[50%] font-mon">Call Us : 07067981819</p>
-                    <p className="text-xl text-white w-[95%] xl:w-[70%] font-mon">we are open from Monday-Friday
+                    <h1 className="text-[30px] text-purple font-medium">Get in touch</h1>
+                    <p className="text-[16px] text-white w-[10%] font-mon">Contact Information</p>
+                    <p className="text-[16px] text-white w-[60%] xl:w-[40%] font-mon">27,Alara Street Yaba 100012 Lagos State</p>
+                    <p className="text-[16px] text-white w-[70%] xl:w-[50%] font-mon">Call Us : 07067981819</p>
+                    <p className="text-[16px] text-white w-[95%] xl:w-[70%] font-mon">we are open from Monday-Friday
 08:00am - 05:00pm</p>
 
                 <div className="relative z-10 flex flex-col gap-4">
-                    <h3 className="text-purple text-xl font-medium">Share on</h3>
+                    <h3 className="text-purple text-[16px] font-medium">Share on</h3>
                     <div className="flex items-center gap-2">
                         <FaInstagram className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
                         <FaXTwitter className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
@@ -25,10 +25,10 @@ const ContactUs = () => {
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-100px] left-[-300px] z-0"/>
                 </div>
 
-                <div className="relative z-10 p-2 lg:p-10 rounded-xl bg-none lg:bg-lite-grey ">
+                <div className="relative z-10 p-2 lg:p-5 rounded-xl bg-none lg:bg-lite-grey ">
                     <div className="grid gap-2 mb-5">
-                    <h3 className="text-2xl text-purple font-medium">Questions or need assistance?</h3>
-                    <h3 className="text-2xl text-purple font-medium">Let us know  about it!</h3>
+                    <h3 className="text-[20px] text-purple font-medium">Questions or need assistance?</h3>
+                    <h3 className="text-[20px] text-purple font-medium">Let us know  about it!</h3>
                     </div>
 
                     <form action="/" className="relative z-10">
@@ -37,7 +37,7 @@ const ContactUs = () => {
                         <textarea name="" id="" cols={10} rows={10} placeholder="Message" required className="input font-mon"></textarea>
 
                         <div className="flex items-center justify-center">
-                            <button className="px-16 py-5 btn text-white text-xl rounded-md" >Submit</button>
+                            <button className="px-16 py-3 btn text-white text-[16px] rounded-sm" >Submit</button>
                         </div>
                     </form>
 
@@ -46,10 +46,10 @@ const ContactUs = () => {
                     <div className="relative z-10 lg:hidden flex flex-col items-center justify-center gap-4 mt-12">
                     <h3 className="text-purple text-xl font-medium">Share on</h3>
                     <div className="flex items-center gap-2">
-                        <FaInstagram className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
-                        <FaXTwitter className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
-                        <FaFacebookF className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
-                        <FaLinkedinIn className="text-2xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
+                        <FaInstagram className="text-xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
+                        <FaXTwitter className="text-xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
+                        <FaFacebookF className="text-xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
+                        <FaLinkedinIn className="text-xl text-white font-medium cursor-pointer hover:text-pink slow-transition" />
                     </div>
                 </div>
                 </div>
