@@ -7,8 +7,8 @@ const Hero = () => {
                 <h4 className="text-[16px] md:text-2xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
                 <img src="./img/stroke.png" alt=""  className="pr-[5%] w-[100px] md:w-[250px]"/>
             </div>
-            <section className="grid grid-cols-1 lg:grid-cols-2 items-center ml-0 md:ml-[5%] relative">
-                <div className="z-10 flex flex-col items-center lg:items-start lg:text-left md:text-center">                       
+            <section className="grid grid-cols-1 lg:grid-cols-2 ml-0 md:ml-[5%] relative">
+                <div className="z-10 flex flex-col items-center justify-center lg:items-start lg:text-left md:text-center">                       
                         <div className="flex flex-col">
                             <div className="flex items-end justify-end w-full pr-[3%] lg:pr-[5%]">
                                 <img src="./img/bulb.png" alt="" className="w-10 md:w-50 dangling-picture"/>
