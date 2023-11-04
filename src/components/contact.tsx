@@ -3,7 +3,7 @@ import { FaInstagram, FaXTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/
 const ContactUs = () => {
     return (
         <main className="relative grid items-center justify-center w-full bg-darkpurple overflow-hidden pt-[100px] pb-[100px] lg:pb-0 lg:h-[100vh] h-[100%] px-[5%]" id="contact">
-            <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 w-full py-auto">
+            <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full pb-[100%] lg:pb-0">
                 <div className="relative z-10 lg:grid gap-4 hidden">
                     <h1 className="text-[30px] text-purple font-medium">Get in touch</h1>
                     <p className="text-[16px] text-white w-[10%] font-mon">Contact Information</p>

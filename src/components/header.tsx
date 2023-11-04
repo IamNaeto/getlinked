@@ -52,7 +52,7 @@ const Header = () => {
                     <Link to="/contact" className="p-3 rounded-sm hover:text-pink hover:bg-purpleblur slow-transition">Contact</Link>
                 </nav>
 
-                <a href="" className="btn py-3 px-10 text-[16px] font-medium cursor-pointer rounded-sm">Register</a>
+                <Link to="/register" className="btn py-3 px-10 text-[16px] font-medium cursor-pointer rounded-sm">Register</Link>
 
                 <RiCloseCircleLine 
                 className="absolute top-5 right-5 lg:hidden text-5xl font-bold text-white cursor-pointer hover:text-purple slow-transition"

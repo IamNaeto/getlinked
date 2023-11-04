@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from './App.tsx'
 import './index.css'
 import Contact from './pages/Contact.tsx';
+import Register from './pages/Register.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -13,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/movies/:id" element={<Movies />} /> */}
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
 

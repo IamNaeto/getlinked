@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import CountdownTimer from "./time";
 const Hero = () => {
     return (
@@ -21,7 +23,7 @@ const Hero = () => {
                     </div>
                     <p className="text-[16px] md:text-[20px] lg:text-left text-center text-white font-medium w-[95%] lg:w-[65%] mb-4 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
 
-                    <a href="" className="btn py-3 px-10 text-white text-[16px] font-medium rounded-sm">Register</a>
+                    <Link to="/register" className="btn py-3 px-10 text-white text-[16px] font-medium rounded-sm">Register</Link>
 
                     <CountdownTimer />
                 </div>
