@@ -6,27 +6,27 @@ const Criteria = () => {
             </section>
 
             <section>
-                <h1 className="text-[28px] md:text-4xl text-white font-bold mb-3 text-center lg:text-left">Judging Criteria</h1>
+                <h1 className="text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center lg:text-left">Judging Criteria</h1>
                 <h1 className="text-[28px] md:text-4xl text-purple font-bold mb-3 text-center lg:text-left">Key attributes</h1>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-purple">Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-pink font-bold">Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the
 solution. Consider whether it addresses a real-world problem in a novel 
 way or introduces innovative features.</p>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-purple">Functionality:</span> Assess how well the solution works. Does it perform its 
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-pink font-bold">Functionality:</span> Assess how well the solution works. Does it perform its 
 intended functions effectively and without major issues? Judges would
 consider the completeness and robustness of the solution.</p>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-purple">Impact and Relevance:</span> Determine the potential impact of the solution 
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-pink font-bold">Impact and Relevance:</span> Determine the potential impact of the solution 
 in the real world. Does it address a significant problem, and is it relevant 
 to the target audience? Judges would assess the potential social, 
 economic, or environmental benefits.</p>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-purple">Technical Complexity:</span>  Evaluate the technical sophistication of the solution. 
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left mb-5"><span className="text-pink font-bold">Technical Complexity:</span>  Evaluate the technical sophistication of the solution. 
 Judges would consider the complexity of the code, the use of advanced 
 technologies or algorithms, and the scalability of the solution.</p>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left mb-10"><span className="text-purple">Adherence to Hackathon Rules:</span> Judges will Ensure that the team adhered 
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center lg:text-left mb-10"><span className="text-pink font-bold">Adherence to Hackathon Rules:</span> Judges will Ensure that the team adhered 
 to the rules and guidelines of the hackathon, including deadlines, use of 
 specific technologies or APIs, and any other competition-specific requirements.</p>
 
                 <div className="flex items-center justify-center lg:items-start lg:justify-start">
-                    <a href="" className="relative btn py-5 px-10 text-white text-xl font-medium z-10 rounded-md">Read More</a>
+                    <a href="" className="relative btn py-3 px-10 text-white text-xl font-medium z-10 rounded-md">Read More</a>
                 </div>
             </section>
 

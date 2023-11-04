@@ -4,29 +4,29 @@ const Hero = () => {
         <main className="relative w-full bg-darkpurple overflow-hidden pt-[130px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
             
             <div className="flex flex-col items-end justify-end">
-                <h4 className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
-                <img src="./img/stroke.png" alt=""  className="pr-[5%] w-30 md:w-50"/>
+                <h4 className="text-[16px] md:text-2xl lg:text-3xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
+                <img src="./img/stroke.png" alt=""  className="pr-[5%] w-[100px] md:w-[250px]"/>
             </div>
-            <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center ml-0 md:ml-[5%] relative">
+            <section className="grid grid-cols-1 lg:grid-cols-2 items-center ml-0 md:ml-[5%] relative">
                 <div className="z-10 flex flex-col items-center lg:items-start lg:text-left md:text-center">                       
                         <div className="flex flex-col">
                             <div className="flex items-end justify-end w-full pr-[3%] lg:pr-[5%]">
                                 <img src="./img/bulb.png" alt="" className="w-10 md:w-50 dangling-picture"/>
                             </div>
-                            <h1 className="text-white font-extrabold text-5xl md:text-6xl lg:text-5xl xl:text-7xl relative z-1">getlinked Tech</h1>
+                            <h1 className="text-white font-extrabold text-4xl md:text-6xl lg:text-5xl xl:text-6xl relative z-1">getlinked Tech</h1>
                         </div>
-                        <div className="flex">
-                            <h1 className="text-white font-extrabold text-[40px] md:text-6xl lg:text-5xl xl:text-7xl relative z-1">Hackathon <span className="text-purple">1.0</span></h1>
+                        <div className="flex mb-2 md:mb-5">
+                            <h1 className="text-white font-extrabold text-4xl md:text-6xl lg:text-5xl xl:text-6xl relative z-1">Hackathon <span className="text-purple">1.0</span></h1>
                             <img src="./img/chainexplosion.png" alt="" className="w-20 md:w-50"/>
                         </div>
-                        <p className="text-xl md:text-2xl lg:text-left text-center text-white font-medium w-[95%] lg:w-[80%] mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+                        <p className="text-[16px] md:text-[20px] lg:text-left text-center text-white font-medium w-[95%] lg:w-[65%] mb-5 md:mb-10 px-[2%] lg:px-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     
-                        <a href="" className="btn py-5 px-10 text-white text-xl font-medium rounded-md">Register</a>
+                        <a href="" className="btn py-3 px-10 text-white text-xl font-medium rounded-md">Register</a>
 
                         <CountdownTimer />
                 </div>
 
-                <div className="relative mt-10 lg:mt-0">
+                <div className="relative mt-5 lg:mt-0">
                     <img src="./img/hero-img.png" alt="" className="relative z-10"/>
                     <img src="./img/globe.png" alt="" className="globe absolute top-0 z-10"/>
                 </div>

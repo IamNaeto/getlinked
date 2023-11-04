@@ -1,9 +1,9 @@
 const Partners = () => {
     return ( 
         <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 items-center place-items-center overflow-hidden" id="timeline">
-            <section className="relative z-10 w-full flex flex-col items-center justify-center mb-20">
+            <section className="relative z-10 w-full flex flex-col items-center justify-center mb-10">
                 <h1 className="text-[28px] md:text-4xl text-white font-bold mb-3 text-center">Partners and Sponsors</h1>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center w-full lg:w-[40%]">Getlinked Hackathon 1.0 is honored to have the following major 
+                <p className="text-[14px] md:text-[16px] text-white font-medium font-mon leading-loose text-center w-full lg:w-[40%]">Getlinked Hackathon 1.0 is honored to have the following major 
 companies as its partners and sponsors</p>
             </section>
 

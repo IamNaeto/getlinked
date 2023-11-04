@@ -1,7 +1,7 @@
 const Timeline = () => {
     return ( 
         <main className="relative px-[5%] py-[150px] bg-darkpurple border-b border-1 border-gray-600 grid grid-cols-1 overflow-hidden" id="timeline">
-            <section className="w-full flex flex-col items-center justify-center mb-20">
+            <section className="relative z-10 w-full flex flex-col items-center justify-center mb-20">
                 <h1 className="text-[28px] md:text-4xl text-white font-bold mb-3 text-center">Timeline</h1>
                 <p className="text-lg text-white font-medium font-mon leading-loose text-center w-full lg:w-[40%]">Here is the breakdown of the time we anticipate 
 using for the upcoming event.</p>
