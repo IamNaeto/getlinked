@@ -1,6 +1,6 @@
 const RegisterForm = () => {
     return ( 
-        <main className="relative grid items-center justify-center w-full bg-darkpurple overflow-hidden pt-[100px] pb-[100px] lg:pb-0 lg:h-[100vh] h-[100%] px-[5%]" id="contact">
+        <main className="relative grid items-center justify-center w-full bg-darkpurple overflow-hidden pt-[50px] pb-[100px] lg:pb-0 lg:h-[100vh] h-[100%] px-[5%]" id="contact">
         <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 w-full pb-[10px] lg:pb-0">
             <div className="relative z-10">
                 <img src="./img/register.png" alt="" className="dangling-picture relative z-10"/>
