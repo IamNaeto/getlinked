@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import CountdownTimer from "./time";
 const Hero = () => {
     return (
-        <main className="relative z-10 grid items-center w-full bg-darkpurple overflow-hidden pt-[90px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
+        <main className="relative z-6 grid items-center w-full bg-darkpurple overflow-hidden pt-[90px] bg-matrix bg-cover bg-right bg-no-repeat border-b border-1 border-gray-600" id="home">
 
             <div className="flex flex-col items-end justify-end">
                 <h4 className="text-[16px] md:text-2xl text-white font-mon font-semibold z-10 pr-3 md:pr-[5%]">Igniting a Revolution in HR Innovation</h4>
@@ -29,16 +29,16 @@ const Hero = () => {
                 </div>
 
                 <div className="relative mt-5 lg:mt-0">
-                    <img src="./img/hero-img.png" alt="" className="relative z-5" />
-                    <img src="./img/globe.png" alt="" className="globe absolute top-0 z-5" />
+                    <img src="./img/hero-img.png" alt="" className="relative z-5 z-10"/>
+                    <img src="./img/globe.png" alt="" className="globe absolute top-0 z-5 z-10"/>
                 </div>
 
-                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[200px] lg:top-[-200px] right-100 lg:right-[-100px] z-0 w-50 opacity-70" />
+                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[200px] lg:top-[-200px] right-100 lg:right-[-100px] w-50 opacity-70 z-10" />
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-100px] lg:top-[-400px] left-[-100px] lg:left-[-200px] z-0 w-50 opacity-70" />
 
-                <img src="./img/whitestar.png" alt="" className="absolute top-10 left-20 z-0 w-50 animate-pulse" />
-                <img src="./img/greystar.png" alt="" className="absolute top-50 lg:top-20 right-10 lg:right-100 z-0 w-50 animate-pulse" />
-                <img src="./img/greystar.png" alt="" className="absolute bottom-40 right-100 z-0 w-50 animate-pulse" />
+                <img src="./img/whitestar.png" alt="" className="absolute top-5 left-20 z-0 w-4 animate-pulse" />
+                <img src="./img/greystar.png" alt="" className="absolute top-50 lg:top-20 right-10 lg:right-100 z-0 w-4 animate-pulse" />
+                <img src="./img/greystar.png" alt="" className="absolute bottom-40 right-100 z-0 w-4 animate-pulse" />
 
             </section>
 
