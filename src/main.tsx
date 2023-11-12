@@ -5,11 +5,11 @@ import App from './App.tsx'
 import './index.css'
 import Contact from './pages/Contact.tsx';
 import Register from './pages/Register.tsx';
+import { AOSInit } from './components/aos.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* <App /> */}
-
+      <AOSInit />
     <Router>
       <Routes>
         <Route path="/" element={<App />} />

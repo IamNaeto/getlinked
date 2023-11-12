@@ -52,7 +52,7 @@ const CountdownTimer: React.FC = () => {
   };
 
   return (
-    <main className="countdown-timer text-white flex items-center mt-4 gap-x-5">
+    <main className="countdown-timer text-white flex items-center mt-4 gap-x-5" data-aos="fade-down">
       <div className="flex items-end animate__animated animate__fadeInUp animate__fast">
         <span className="timer-item tracking-tighter text-4xl md:text-5xl font-medium">{formatTime(time.hours)}</span>
         <span className="text-sm inline mb-[2px] ml-[5px]">H</span>

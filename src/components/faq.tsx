@@ -18,15 +18,15 @@ const FAQs = () => {
     return (
         <main className="relative px-[5%] py-[120px] bg-darkpurple grid grid-cols-1 lg:grid-cols-2 items-center justify-between border-b border-1 border-gray-600 overflow-hidden" id="faqs">
             <section className="relative z-10">
-                <h1 className="text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center lg:text-left">Frequently Ask</h1>
-                <h1 className="text-[28px] md:text-4xl text-purple font-bold mb-0 md:mb-3 text-center lg:text-left">Question</h1>
-                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full lg:w-[70%]">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
+                <h1 className="text-[28px] md:text-4xl text-white font-bold mb-0 md:mb-3 text-center lg:text-left" data-aos="fade-down">Frequently Ask</h1>
+                <h1 className="text-[28px] md:text-4xl text-purple font-bold mb-0 md:mb-3 text-center lg:text-left" data-aos="fade-down">Question</h1>
+                <p className="text-lg text-white font-medium font-mon leading-loose text-center lg:text-left w-full lg:w-[70%]" data-aos="fade-down">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
 
                 <div className="relative z-10 w-full mt-10">
                     {faqData.map((item, index) => (
-                        <div key={index} className="w-full py-3 lg:py-5 border-b-4 border-purple">
+                        <div key={index} className="w-full py-3 lg:py-5 border-b-4 border-purple" data-aos="fade-down">
                             <div className="flex justify-between gap-4">
-                                <p className="text-14px md:text-[16px] text-white font-medium font-mon leading-loose text-left lg:text-left">{item.question}</p>
+                                <p className="text-14px md:text-[16px] text-white font-medium font-mon leading-loose text-left lg:text-left" data-aos="fade-down">{item.question}</p>
 
                                 {expandedIndex === index ?
                                     <HiMinusSm
@@ -42,7 +42,7 @@ const FAQs = () => {
                             </div>
 
                             {expandedIndex === index && (
-                                <p className="text-[13px] text-gray-400 font-medium font-mon leading-relaxed text-justify lg:text-justify mt-5 pr-8 transition-all duration-500">{item.answer}</p>
+                                <p className="text-[13px] text-gray-400 font-medium font-mon leading-relaxed text-justify lg:text-justify mt-5 pr-8 transition-all duration-500" data-aos="fade-down">{item.answer}</p>
                             )}
                         </div>
                     ))}
