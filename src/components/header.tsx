@@ -39,9 +39,9 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
       };
     return ( 
-        <header className={`fixed w-full py-4 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
+        <header className={`fixed w-full py-3 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
             <Link to="/"  >
-                <h2 className="text-4xl font-bold text-white">get<span className="text-purple">linked</span></h2>
+                <h2 className="text-4xl font-extrabold text-white">get<span className="text-purple">linked</span></h2>
             </Link>
 
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} absolute top-[10px] border-purple lg:border-none border right-4 lg:right-0 lg:top-0 bg-darkpurple lg:bg-transparent rounded-xl lg:rounded-none shadow-sm shadow-gray-600 lg:shadow-none lg:p-0 p-10 lg:relative lg:flex flex-col lg:flex-row items-start lg:items-center text-white gap-10 transition-transform transform`}>
