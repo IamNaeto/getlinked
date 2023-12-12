@@ -96,19 +96,19 @@ const RegisterForm = () => {
                 <label htmlFor="" className="labels font-mon" data-aos="fade-down">Category
                   <select id="" name="category" className="select" required>
                     <option value="" className="bg-darkpurple">--Select--</option>
-                    <option value="Frontend" className="bg-darkpurple">Frontend</option>
-                    <option value="Backend" className="bg-darkpurple">Backend</option>
-                    <option value="UI/UX" className="bg-darkpurple">UI/UX</option>
-                    <option value="DevOps" className="bg-darkpurple">DevOps</option>
+                    <option value="" className="bg-darkpurple">Frontend</option>
+                    <option value="" className="bg-darkpurple">Backend</option>
+                    <option value="" className="bg-darkpurple">UI/UX</option>
+                    <option value="" className="bg-darkpurple">DevOps</option>
                   </select>
                 </label>
                 <label htmlFor="" className="labels font-mon" data-aos="fade-down">Group Size
                   <select name="groupSize" id="" className="select" required>
                     <option value="" className="bg-darkpurple rounded-sm">--Select--</option>
-                    <option value="2" className="bg-darkpurple">2</option>
-                    <option value="4" className="bg-darkpurple">4</option>
-                    <option value="6" className="bg-darkpurple">6</option>
-                    <option value="8" className="bg-darkpurple">8</option>
+                    <option value="" className="bg-darkpurple">2</option>
+                    <option value="" className="bg-darkpurple">4</option>
+                    <option value="" className="bg-darkpurple">6</option>
+                    <option value="" className="bg-darkpurple">8</option>
                   </select>
                 </label>
               </div>
