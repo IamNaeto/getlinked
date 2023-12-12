@@ -33,7 +33,7 @@ const Hero = () => {
                     <img src="./img/globe.png" alt="" className="globe absolute top-0 z-5 z-10"/>
                 </div>
 
-                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[200px] lg:top-[-200px] right-100 lg:right-[-100px] w-50 opacity-70 z-10" />
+                <img src="./img/hero-purple-lens.png" alt="" className="absolute top-[200px] lg:top-[-200px] right-100 lg:right-[-100px] w-50 opacity-70 z-0" />
                 <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[-100px] lg:top-[-400px] left-[-100px] lg:left-[-200px] z-0 w-50 opacity-70" />
 
                 <img src="./img/whitestar.png" alt="" className="absolute top-5 left-20 z-0 w-4 animate-pulse" />
