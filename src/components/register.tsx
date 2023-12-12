@@ -2,8 +2,6 @@ import { useState } from "react";
 import CustomModal from "./CustomModal";
 import ModalContent from "./ModalContent";
 
-// ... (your other imports)
-
 const RegisterForm = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [formValues, setFormValues] = useState({
@@ -40,20 +38,20 @@ const RegisterForm = () => {
       );
     };
   
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-        const { name, value, type } = e.target;
-      
-        setFormValues((prevValues) => ({
-          ...prevValues,
-          [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value,
-        }));
-      };
-      
+    const handleInputChange = (e: React.FormEvent<HTMLFormElement>) => {
+      const event = e as unknown as React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>;
+      const { name, value, type } = event.target;
+  
+      setFormValues((prevValues) => ({
+        ...prevValues,
+        [name]: type === "checkbox" ? (event.target as HTMLInputElement).checked : value,
+      }));
+    };
   
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault(); // Prevent the default form submission behavior
-        openModal();
-      };
+      e.preventDefault(); // Prevent the default form submission behavior
+      openModal();
+    };
   
     return (
       <main className="relative grid items-center justify-center w-full bg-darkpurple overflow-hidden pt-[50px] pb-[100px] lg:pb-0 lg:h-[100vh] h-[100%] px-[5%]" id="contact">
@@ -74,7 +72,7 @@ const RegisterForm = () => {
               <h1 className="text-white text-[20px] font-mon" data-aos="fade-down">CREATE YOUR ACCOUNT</h1>
             </div>
   
-            <form action="/" className="relative z-10" onChange={handleInputChange} onSubmit={handleSubmit}>
+            <form action="" className="relative z-10" onChange={handleInputChange} onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2 lg:gap-6">
                 <label htmlFor="" className="labels font-mon" data-aos="fade-down">Team Name
                   <input type="text" name="teamName" placeholder="Enter the name of your group" className="input font-mon" required />
