@@ -42,7 +42,7 @@ const Header = () => {
       const location = useLocation();
       const isHome = location.pathname === '/';
     return ( 
-        <header className={`fixed w-full py-3 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
+        <header className={`fixed top-0 w-full py-3 px-[5%] flex items-center justify-between z-1000 shadow-lg z-50 border-b border-1 border-gray-600 ${headerBackground}`}>
             <Link to="/"  >
                 <h2 className="text-4xl font-extrabold text-white">get<span className="text-purple">linked</span></h2>
             </Link>

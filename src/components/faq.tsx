@@ -58,7 +58,7 @@ const FAQs = () => {
             <img src="./img/litepurplestar.png" alt="" className="absolute top-40 left-[200px] lg:left-[400px] animate-pulse" />
             <img src="./img/purplestar.png" alt="" className="absolute top-[1500px] lg:top-50 right-20 animate-pulse" />
 
-            <img src="./img/hero-purple-lens.png" alt="" className="absolute bottom-[-300px] lg:bottom-[-400px] lg:right-[-300px] right-[-100px] z-10 w-50 opacity-70" />
+            <img src="./img/hero-purple-lens.png" alt="" className="absolute z-0 bottom-[-300px] lg:bottom-[-400px] lg:right-[-300px] right-[-100px] w-50 opacity-70" />
             <img src="./img/hero-purple-lens-left.png" alt="" className="absolute top-[50px] lg:top-[-100px] left-[-100px] z-0 w-50 opacity-70" />
 
         </main>
